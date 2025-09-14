@@ -13,7 +13,8 @@
       "Bash(ls:*)",
       "Bash(rm:*)",
       "Bash(npx tailwindcss:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": []
   }
