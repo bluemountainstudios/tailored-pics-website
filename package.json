@@ -1,0 +1,16 @@
+{
+  "name": "tailored-pics-website",
+  "version": "1.0.0",
+  "description": "Marketing website for Tailored Pics app",
+  "scripts": {
+    "dev": "concurrently \"npm run watch-css\" \"bundle exec jekyll serve --livereload\"",
+    "build": "npm run build-css && bundle exec jekyll build",
+    "build-css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify",
+    "watch-css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "concurrently": "^8.2.0"
+  }
+}

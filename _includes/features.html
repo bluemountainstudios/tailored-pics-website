@@ -1,0 +1,52 @@
+<!-- Features Section -->
+<section id="features" class="section-padding bg-white/10 backdrop-blur-md">
+    <div class="container-max mx-auto text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+            {{ include.title | default: "Why Choose Tailored Pics?" }}
+        </h2>
+        <p class="text-xl text-white/80 mb-16 max-w-3xl mx-auto">
+            {{ include.subtitle | default: "Designed specifically for families, educators, and therapists who understand the power of visual communication." }}
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+            <!-- Feature 1 -->
+            <div class="glass-effect p-8 text-center transform hover:scale-105 transition-all duration-300">
+                <div class="w-16 h-16 bg-white rounded-2xl mx-auto mb-6 flex items-center justify-center p-2">
+                    <img src="{{ '/assets/images/bms_images/art.png' | relative_url }}" 
+                         alt="Art - High-Quality Images" 
+                         class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-4">600+ High-Quality Images</h3>
+                <p class="text-white/80">
+                    Carefully curated library including activities, places, people, objects, and more. All designed for clarity and recognition.
+                </p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="glass-effect p-8 text-center transform hover:scale-105 transition-all duration-300">
+                <div class="w-16 h-16 bg-white rounded-2xl mx-auto mb-6 flex items-center justify-center p-2">
+                    <img src="{{ '/assets/images/bms_images/group work.png' | relative_url }}" 
+                         alt="Group Work - Easy Visual Schedules" 
+                         class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-4">Easy Visual Schedules</h3>
+                <p class="text-white/80">
+                    Create personalized visual schedules in minutes. Perfect for daily routines, special events, or learning activities.
+                </p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="glass-effect p-8 text-center transform hover:scale-105 transition-all duration-300">
+                <div class="w-16 h-16 bg-white rounded-2xl mx-auto mb-6 flex items-center justify-center p-2">
+                    <img src="{{ '/assets/images/bms_images/people.png' | relative_url }}" 
+                         alt="People - Built for Everyone" 
+                         class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-2xl font-bold text-white mb-4">Built for Everyone</h3>
+                <p class="text-white/80">
+                    Whether you're a parent, teacher, therapist, or caregiver, our tools adapt to your unique needs and workflows.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>

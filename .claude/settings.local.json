@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle install:*)",
+      "Bash(gem pristine:*)",
+      "Bash(xcode-select:*)",
+      "Bash(brew:*)",
+      "Bash(source:*)",
+      "Bash(rvm install:*)",
+      "Bash(export:*)",
+      "Bash(npm run dev:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(npx tailwindcss:*)"
+    ],
+    "deny": []
+  }
+}

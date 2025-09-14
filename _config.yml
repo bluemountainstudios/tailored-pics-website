@@ -1,0 +1,56 @@
+# Site settings
+title: "Tailored Pics"
+tagline: "Make Materials the Easy Way"
+description: "Use our library of over 600+ images to build visual schedules - designed to bring clarity, consistency, and independence to daily life."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tailored-pics.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - tailwind.config.js
+  - package.json
+  - package-lock.json
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Site navigation
+navigation:
+  - name: "Home"
+    url: "/"
+  - name: "Support"
+    url: "/support/"
+  - name: "Privacy Policy"
+    url: "/privacy/"
+  - name: "Terms of Service"
+    url: "/terms/"
+
+# Contact
+support_email: "hello@bluemountainstudios.net"
