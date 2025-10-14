@@ -4,7 +4,7 @@ title: Terms of Service
 subtitle: Terms and conditions for using the Tailored Pics app and services.
 description: Terms and conditions for using the Tailored Pics app and services.
 permalink: /terms/
-last_updated: 2024-01-01
+last_updated: 2025-10-13
 ---
 
 ## Acceptance of Terms
