@@ -3,7 +3,7 @@ layout: page
 title: Terms of Service
 subtitle: Terms and conditions for using the Tailored Pics app and services.
 description: Terms and conditions for using the Tailored Pics app and services.
-permalink: /terms/
+permalink: /terms-of-service
 last_updated: 2025-10-13
 ---
 

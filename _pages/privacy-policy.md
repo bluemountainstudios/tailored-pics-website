@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 subtitle: Our commitment to protecting your privacy when using Tailored Pics.
 description: Our commitment to protecting your privacy when using Tailored Pics.
-permalink: /privacy-policy/
+permalink: /privacy-policy
 last_updated: 2025-10-13
 ---
 
