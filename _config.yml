@@ -48,9 +48,9 @@ navigation:
   - name: "Support"
     url: "/support/"
   - name: "Privacy Policy"
-    url: "/privacy/"
+    url: "/privacy-policy"
   - name: "Terms of Service"
-    url: "/terms/"
+    url: "/terms-of-service"
 
 # Contact
 support_email: "hello@bluemountainstudios.net"
